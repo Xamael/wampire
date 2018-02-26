@@ -4,6 +4,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.maox.wampire.servers.AcidImg;
 import org.maox.wampire.servers.CoreImg;
 import org.maox.wampire.servers.ImageBam;
 import org.maox.wampire.servers.ImageFolks;
@@ -38,6 +39,7 @@ public class ServerPool {
 	 */
 	private ServerPool() {
 		serverList = new ArrayList<ImageServer>();
+		serverList.add(new AcidImg());
 		serverList.add(new CoreImg());
 		serverList.add(new ImageBam());
 		serverList.add(new ImageFolks());
