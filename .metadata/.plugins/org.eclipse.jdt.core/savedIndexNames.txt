@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+D:\alex\workspace\wampire\.metadata\.plugins\org.eclipse.jdt.core
+1099203085.index
+822544566.index
+1865797976.index
+2902699794.index
+1852633539.index
+3766904534.index
